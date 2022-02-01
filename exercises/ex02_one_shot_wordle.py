@@ -1,6 +1,6 @@
 """EX02 - One Shot Worlde."""
 
-_author_ = 730474696
+__author__ = "730474696"
 
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
@@ -8,7 +8,7 @@ YELLOW_BOX: str = "\U0001F7E8"
 
 # establishing the word users will guess and taking in their input
 secret_word: str = "python"
-guess = str(input(f"What is your {len(secret_word)}-letter guess? "))
+guess: str = (input(f"What is your {len(secret_word)}-letter guess? "))
 
 # testing to see if the guessed word is the same length as the secret word
 while len(guess) != len(secret_word):

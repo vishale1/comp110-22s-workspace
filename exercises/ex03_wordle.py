@@ -1,6 +1,6 @@
 """Exercise 3 - Wordle."""
 
-_author_ = 730474696
+_author_ = "730474696"
 
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
@@ -49,9 +49,9 @@ def main() -> None:
     won: bool = False 
     while turn != 7 and won is False:
         print(f"=== Turn {turn}/6 ===")
-        user_guess: str = input_guess(len(secret_word))
-        print(emojified(user_guess, secret_word))
-        if user_guess == secret_word:
+        guess: str = input_guess(len(secret_word))
+        print(emojified(guess, secret_word))
+        if guess == secret_word:
             turn += 1
             won = True
         else:

@@ -1,6 +1,6 @@
 """Exercise 3 - Wordle."""
 
-_author_ = "730474696"
+__author__ = "730474696"
 
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
@@ -60,6 +60,7 @@ def main() -> None:
         print(f"You won in {turn}/6 turns!")
     else: 
         print("X/6 - Sorry, try again tomorrow!")
+        exit()
 
 
 if __name__ == "__main__":

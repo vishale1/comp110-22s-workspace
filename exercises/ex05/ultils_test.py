@@ -2,9 +2,7 @@
 
 ___author___ = "730474696"
 
-from utils import only_evens
-from utils import sub
-from utils import concat
+from utils import only_evens, sub, concat
 
 
 def test_only_evens_both() -> None:

@@ -41,10 +41,3 @@ def concat(first_list: list[int], second_list: list[int]) -> list[int]:
         new_list.append(second_list[a])
         a += 1
     return new_list
-
-
-list_one: list[int] = [1, 3, 5, 8]
-list_two: list[int] = [9, 5, 7, 10]
-print(only_evens(list_one))
-print(sub(list_one, 0, 4))
-print(concat(list_one, list_two))

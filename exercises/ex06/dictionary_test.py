@@ -26,13 +26,13 @@ def test_invert_blank() -> None:
 
 
 def test_count_a() -> None: 
-    """ This function returns the number of times a item appears in a list."""
+    """This function returns the number of times a item appears in a list."""
     letters: list[str] = ["a", "b", "b", "c", "c", "c"]
     assert count(letters) == {"a": 1, "b": 2, "c": 3}
 
 
 def test_count_b() -> None: 
-    """ This function returns the number of times a name appears in a list."""
+    """This function returns the number of times a name appears in a list."""
     names: list[str] = ["will", "will", "will", "will", "steve", "ryan"]
     assert count(names) == {"will": 4, "steve": 1, "ryan": 1}
 
@@ -56,6 +56,6 @@ def test_favorite__color_b() -> None:
 
 
 def test_c() -> None:
-    """This test will return nothing"""
+    """This test will return nothing."""
     colors: dict[str, str] = {}
     assert favorite_color(colors) == ""
